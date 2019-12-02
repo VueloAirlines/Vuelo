@@ -76,7 +76,7 @@ nav a:hover::after {
     background: url('people.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 266px;
+	height: 532px;
 	margin: 0;
 }
 
