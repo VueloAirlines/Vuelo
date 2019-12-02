@@ -1,0 +1,177 @@
+body {
+	margin:0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+.top {
+	width: 80%;
+	margin: 0 auto;
+	height: 0px;
+}
+header {background: #ff9933;}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.logo {
+	float: left;
+	padding: 10px 0;
+}
+nav{
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 35px;
+	position: relative;
+	margin-top: -15px;
+}
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+header nav a {
+	font-size: 20px;
+}
+nav a:hover {
+	color: #000;
+}
+nav a::after {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background: #444;
+	position: absolute;
+	top: 70px;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+nav a:hover::after {
+	width: 100%;
+}
+
+
+
+.first_container {
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.parallax {
+    background: url('welcome.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 532px;
+	margin: -50px 0 0;
+}
+.vuelo {
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 40px 0 0;
+}
+#welcomebtn {
+	background: url('welcome_video_button.png');
+	width: 210px;
+	height: 115px;
+	border: 0px;
+	margin: 20px 0;
+}
+#slogan {
+	font-family: "Tw Cen MT";
+	color: #ff9933;
+	font-size: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding: 240px 0 0;
+}
+
+
+
+
+#container{
+	margin:0 auto;
+	width:80%;
+	font-family: verdana,arial,sans-serif;
+	font-size:16px;
+}
+#window {
+	position: fixed;
+	font-family: arial,helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 99999;
+	opacity:0;
+	transition: opacity 400ms linear;
+	pointer-events: none;
+}
+#window:target {
+	opacity:1;
+	pointer-events: auto;
+}
+#window > div {
+	width: 570px;
+	height: 370px;
+	position: relative;
+	margin: 10% auto;
+	padding: 20px 20px 13px 20px;
+	border: solid;
+	border-color: black;
+	border-width : 2px;
+	background: #ff9933;
+	border-radius: 10px;
+}
+#window a {
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+#window a:hover {
+	background-color: black;
+	color: #ff9933;
+}
+iframe {margin: 10px 0;}
+
+
+
+
+.info {color: #ff9933;}
+.info h1 {font-size: 40px;}
+
+
+
+
+.bottom {
+	width: 80%;
+	margin: 0 auto;
+}
+footer {
+	height: 70px;
+	width: 100%;
+	background: #ff9933;
+}
+footer::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.bottom_list {
+	margin: -10px 120px;
+}
