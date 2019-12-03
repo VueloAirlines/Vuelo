@@ -155,6 +155,7 @@ h1 {
 	text-align: center;
 	background-color: #ff9933;
 	border: #ff9933;
+	color: white;
 }
 ::placeholder {color: white;}
 #resume_text:hover {background-color: #ff8000;}
@@ -166,6 +167,7 @@ h1 {
 	padding: 20px 0;
 	font-size: 16px;
 	width: 100px;
+	color: white;
 }
 #email:hover {background-color: #ff8000;}
 #submit_form {
